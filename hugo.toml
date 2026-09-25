@@ -55,6 +55,11 @@ locale = 'ja-JP'
   weight = 10
 
 [[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 15
+
+[[menu.main]]
   name = "Tags"
   url = "/tags/"
   weight = 20
@@ -68,3 +73,6 @@ locale = 'ja-JP'
   name = "検索"
   url = "/search/"
   weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true

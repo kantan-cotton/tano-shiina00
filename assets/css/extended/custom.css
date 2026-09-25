@@ -1,0 +1,164 @@
+/* 見出し */
+/* H1: 最上位見出し（上下線） */
+h1 {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 15px 0;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: block;
+}
+
+/* H2: 大見出し（二重下線） */
+h2 {
+  border-bottom: 3px double;
+  padding-bottom: 10px;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+/* H3: セクションの大きな区切り（グラデーション下線） */
+h3 {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+    90deg,
+    currentColor 0%,
+    rgba(0, 0, 0, 0) 90%
+  ) 1;
+  padding-bottom: 8px;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* H4: 小さな区切り（左線＋下線） */
+h4 {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 0.2rem;
+  padding: 0.4rem 0.8rem;
+  border-left: 4px solid;
+  border-bottom: 1px solid;
+  border-radius: 2px 0 0 2px;
+}
+
+/* H5: シンプルな吹き出し */
+h5 {
+  position: relative;
+  display: block;
+  margin-bottom: 2rem;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: 1px solid;
+}
+
+/* ダークモード */
+:root[saved-theme="dark"] h5 {
+  background-color: #3a3a3a;
+}
+
+/* ライトモード */
+:root[saved-theme="light"] h5 {
+  background-color: #f0eee8;
+}
+
+/* 吹き出しのしっぽ */
+h5::after {
+  position: absolute;
+  left: 20px;
+  top: 100%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+:root[saved-theme="dark"] h5::after {
+  border-top: 8px solid #3a3a3a;
+}
+
+:root[saved-theme="light"] h5::after {
+  border-top: 8px solid #f0eee8;
+}
+
+/* 引用 */
+blockquote {
+  border-left: 3px solid #EA8D1F;
+  background-color: rgba(234, 141, 31, 0.08);
+  padding: 0.8rem 1rem;
+}
+
+/* 引用符 */
+blockquote::before {
+  font: 14px/20px "Helvetica Neue", serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  color: #EA8D1F;
+}
+
+blockquote::after {
+  font: 14px/20px "Helvetica Neue", serif;
+  content: "”";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  color: #EA8D1F;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.article-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-card-image {
+  flex: 0 0 160px;
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.article-card-content {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.article-card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.article-card-description {
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .article-card-image {
+    flex-basis: 110px;
+    width: 110px;
+    height: 75px;
+  }
+}
