@@ -162,3 +162,22 @@ blockquote p {
     height: 75px;
   }
 }
+
+:root {
+  --primary: #2672A8;
+}
+
+:root[data-theme="dark"] {
+  --primary: #DC9FE3;
+}
+
+/* ライトモードの背景 */
+:root {
+  --theme: ##F5F3ED;
+}
+
+.share-buttons img[alt="LINE"] {
+  width: 30px;
+  height: 30px;
+  display: block;
+}

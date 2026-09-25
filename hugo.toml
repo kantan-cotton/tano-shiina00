@@ -1,13 +1,14 @@
 baseURL = 'https://tano-shiina.com/'
 title = 'たのしいな。'
 theme = 'PaperMod'
-locale = 'ja-JP'
+locale = 'ja'
 
 [params]
   env = "production"
   defaultTheme = "auto"
   ShowReadingTime = false
   ShowShareButtons = true
+  ShareButtons = ["x", "facebook", "line", "hatena", "bluesky"]
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -17,7 +18,7 @@ locale = 'ja-JP'
   TocOpen = true
 
 [params.homeInfoParams]
-  Title = "Tano Shiina's Website"
+  Title = "👻 Tano Shiina's Website 😱"
   Content =  """
 田野椎菜の個人サイト。
 
@@ -50,6 +51,11 @@ locale = 'ja-JP'
   keys = ["title", "permalink", "summary", "content"]
 
 [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 5
+
+[[menu.main]]
   name = "Archives"
   url = "/archives/"
   weight = 10
@@ -70,7 +76,7 @@ locale = 'ja-JP'
   weight = 30
 
 [[menu.main]]
-  name = "検索"
+  name = "Search"
   url = "/search/"
   weight = 40
 
