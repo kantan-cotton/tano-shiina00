@@ -71,14 +71,9 @@ locale = 'ja'
   weight = 20
 
 [[menu.main]]
-  name = "SNS"
-  url = "SNSのURL"
-  weight = 30
-
-[[menu.main]]
   name = "Search"
   url = "/search/"
-  weight = 40
+  weight = 30
 
 [markup.goldmark.renderer]
   unsafe = true
