@@ -1,0 +1,4 @@
+baseURL = 'https://tano-shiina.com/'
+title = 'たのしいな。'
+theme = 'PaperMod'
+locale = 'ja-JP'
