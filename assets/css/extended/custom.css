@@ -268,3 +268,13 @@ h6 {
 :root[data-theme="dark"] .home-info .entry-content {
   color: #D0D0D0;
 }
+/* affiliate disclosure */
+.post-pr {
+  margin-bottom: 0.5rem;
+  color: #777777;
+  font-size: 0.85rem;
+}
+
+:root[data-theme="dark"] .post-pr {
+  color: #999999;
+}

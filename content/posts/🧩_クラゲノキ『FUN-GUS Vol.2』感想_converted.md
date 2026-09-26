@@ -6,15 +6,16 @@ genre: "[[SF]]"
 feature: "[[📖_FUN-GUS Vol.2]]"
 title: クラゲノキ『FUN-GUS Vol.2』感想
 source:
-description: クラゲノキ『FUN-GUS Vol.2』のブログアップ用レビュー記事。
+description: クラゲノキ『FUN-GUS Vol.2』のレビュー記事。
 published: 2026-09-12
-modified: 2026-09-26
+modified: 2026-09-27
 created: 2026-09-11 19:58:22
 date: 2026-09-26T16:55:03+09:00
 tags:
   - SF
 weight:
 draft: false
+slug: q4v8n3cd
 ---
 {{< img "https://img.tano-shiina.com/2026/09/0627502b-fa87-4bca-af43-f9725a09b0f7.jpeg" "https://booth.pm/ja/items/8711025" "クラゲノキ『FUN-GUS Vol.2』表紙画像" "表紙イラスト：メグリム・ハルヨ" >}}
 

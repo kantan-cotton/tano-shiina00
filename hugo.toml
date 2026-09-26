@@ -75,6 +75,7 @@ locale = 'ja'
 
 [markup.goldmark.renderer]
   unsafe = true
+  hardWraps = true
 
 [permalinks]
-  posts = "/:year/:month/:day/:15:04:05/"
+  posts = "/:year/:month/:day/:slug/"

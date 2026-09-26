@@ -1,6 +1,8 @@
 from pathlib import Path
 import re
 import sys
+import secrets
+import string
 from datetime import datetime
 
 # ========================================
@@ -23,6 +25,13 @@ if source_path.suffix.lower() != ".md":
     print("Markdownファイル（.md）を指定してください。")
     input("Enterキーで終了します。")
     sys.exit(1)
+
+
+# ========================================
+# 変換先
+# ========================================
+
+output_dir = Path(r"C:\Users\white\Documents\PaperMod\content\posts")
 
 
 # ========================================
@@ -59,6 +68,37 @@ current_time = current_time[:-2] + ":" + current_time[-2:]
 
 
 # ========================================
+# slug生成
+# ========================================
+
+def generate_slug():
+    chars = string.ascii_lowercase + string.digits
+
+    while True:
+        slug = "".join(secrets.choice(chars) for _ in range(8))
+
+        # 既存のposts内で同じslugが使われていないか確認
+        duplicate = False
+
+        for md_file in output_dir.glob("*.md"):
+            try:
+                existing_text = md_file.read_text(encoding="utf-8")
+            except (UnicodeDecodeError, OSError):
+                continue
+
+            if re.search(
+                rf"^slug:\s*{re.escape(slug)}\s*$",
+                existing_text,
+                re.MULTILINE
+            ):
+                duplicate = True
+                break
+
+        if not duplicate:
+            return slug
+
+
+# ========================================
 # フロントマターを変換
 # ========================================
 
@@ -66,6 +106,7 @@ lines = frontmatter.splitlines()
 
 converted = []
 found = set()
+existing_slug = None
 
 for line in lines:
     key_match = re.match(
@@ -90,6 +131,13 @@ for line in lines:
             found.add("images")
             continue
 
+        # slugが既にある場合はそのまま維持
+        if key == "slug":
+            converted.append(line)
+            found.add("slug")
+            existing_slug = value.strip()
+            continue
+
         # その他はそのまま
         converted.append(line)
         found.add(key)
@@ -105,6 +153,13 @@ for line in lines:
 
 converted.append(f"date: {current_time}")
 found.add("date")
+
+# slugがなければ8桁の英数字を自動生成
+if "slug" not in found:
+    new_slug = generate_slug()
+    converted.append(f"slug: {new_slug}")
+else:
+    new_slug = existing_slug
 
 if "tags" not in found:
     converted.append("tags:")
@@ -129,7 +184,7 @@ result = f"---\n{new_frontmatter}\n---\n{body}"
 # 別ファイルとして保存
 # ========================================
 
-output_path = Path(r"C:\Users\white\Documents\PaperMod\content\posts") / (
+output_path = output_dir / (
     source_path.stem + "_converted.md"
 )
 
@@ -140,6 +195,7 @@ print("変換しました。")
 print(f"元ファイル:   {source_path.name}")
 print(f"変換結果:     {output_path}")
 print(f"date:         {current_time}")
+print(f"slug:         {new_slug}")
 print()
 print("本文部分は変更していません。")
 
