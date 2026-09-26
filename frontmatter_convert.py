@@ -129,7 +129,7 @@ result = f"---\n{new_frontmatter}\n---\n{body}"
 # 別ファイルとして保存
 # ========================================
 
-output_path = Path(r"C:\Users\white\Documents\PaperMod\content") / (
+output_path = Path(r"C:\Users\white\Documents\PaperMod\content\posts") / (
     source_path.stem + "_converted.md"
 )
 
