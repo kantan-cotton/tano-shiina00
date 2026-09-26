@@ -20,12 +20,11 @@ locale = 'ja'
   DateFormat = "2006/01/02"
 
 [params.homeInfoParams]
-  Title = "👻 Tano Shiina's Website 😱"
+  Title = "👻 Kibi Shiina's Website 😱"
   Content =  """
-田野椎菜の個人サイト。  
-たのしいな。  
+「たのしいな。」は、吉備椎菜の個人サイトです。     
 ヒトがつくったものと、ヒトがつくっていないものについてよく書く。  
-げんざい整備中です (2026-09～) 
+げんざい整備中 (2026-09～) 
 """
 
 [[params.socialIcons]]
