@@ -129,7 +129,7 @@ result = f"---\n{new_frontmatter}\n---\n{body}"
 # 別ファイルとして保存
 # ========================================
 
-output_path = source_path.with_name(
+output_path = Path(r"C:\Users\white\Documents\PaperMod\content") / (
     source_path.stem + "_converted.md"
 )
 
@@ -138,7 +138,7 @@ output_path.write_text(result, encoding="utf-8")
 print()
 print("変換しました。")
 print(f"元ファイル:   {source_path.name}")
-print(f"変換結果:     {output_path.name}")
+print(f"変換結果:     {output_path}")
 print(f"date:         {current_time}")
 print()
 print("本文部分は変更していません。")
