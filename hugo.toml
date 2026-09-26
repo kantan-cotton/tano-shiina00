@@ -77,3 +77,6 @@ locale = 'ja'
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[permalinks]
+  posts = "/:year/:month/:day/:15:04:05/"

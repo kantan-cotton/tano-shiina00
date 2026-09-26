@@ -48,10 +48,14 @@ body = text[match.end():]
 
 
 # ========================================
-# 現在時刻からURLを生成
+# 変換時点の現在時刻
 # ========================================
 
-current_time = datetime.now().strftime("%Y%m%d%H%M%S")
+current_time = datetime.now().astimezone().strftime(
+    "%Y-%m-%dT%H:%M:%S%z"
+)
+
+current_time = current_time[:-2] + ":" + current_time[-2:]
 
 
 # ========================================
@@ -80,18 +84,6 @@ for line in lines:
             found.add("categories")
             continue
 
-        # source / url → 現在時刻URL
-        if key in ("source", "url"):
-            converted.append(f'url: "/{current_time}/"')
-            found.add("url")
-            continue
-
-        # published → date
-        if key == "published":
-            converted.append(f"date:{spacing}{value}")
-            found.add("date")
-            continue
-
         # image → images
         if key == "image":
             converted.append(f"images:{spacing}{value}")
@@ -111,8 +103,8 @@ for line in lines:
 # 不足している項目を追加
 # ========================================
 
-if "url" not in found:
-    converted.append(f'url: "/{current_time}/"')
+converted.append(f"date: {current_time}")
+found.add("date")
 
 if "tags" not in found:
     converted.append("tags:")
@@ -145,10 +137,10 @@ output_path.write_text(result, encoding="utf-8")
 
 print()
 print("変換しました。")
-print(f"元ファイル: {source_path.name}")
-print(f"変換結果:   {output_path.name}")
-print(f"URL:         /{current_time}/")
+print(f"元ファイル:   {source_path.name}")
+print(f"変換結果:     {output_path.name}")
+print(f"date:         {current_time}")
 print()
 print("本文部分は変更していません。")
 
-input("Enterキーで終了します。")
+input("Enterキーで終了します.")
