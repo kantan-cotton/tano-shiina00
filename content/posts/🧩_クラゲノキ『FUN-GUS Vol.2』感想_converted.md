@@ -11,7 +11,8 @@ published: 2026-09-12
 modified: 2026-09-26
 created: 2026-09-11 19:58:22
 date: 2026-09-26T16:55:03+09:00
-tags: SF
+tags:
+  - SF
 weight:
 draft: false
 ---
