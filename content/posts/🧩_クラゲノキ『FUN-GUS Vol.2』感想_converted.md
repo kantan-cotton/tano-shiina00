@@ -15,9 +15,8 @@ tags:
 weight:
 draft: false
 ---
-![](https://img.tano-shiina.com/2026/09/0627502b-fa87-4bca-af43-f9725a09b0f7.jpeg)[https://booth.pm/ja/items/8711025]
+{{< img "https://img.tano-shiina.com/2026/09/0627502b-fa87-4bca-af43-f9725a09b0f7.jpeg" "https://booth.pm/ja/items/8711025" "クラゲノキ『FUN-GUS Vol.2』表紙画像" "表紙イラスト：メグリム・ハルヨ" >}}
 
-表紙イラスト：メグリム・ハルヨ
 
 # クラゲノキ『FUN-GUS Vol.2』感想
 

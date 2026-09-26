@@ -1,0 +1,13 @@
+﻿{{- $src := .Get 0 -}}
+{{- $link := .Get 1 -}}
+{{- $alt := .Get 2 -}}
+{{- $caption := .Get 3 -}}
+
+<figure>
+  <a href="{{ $link }}">
+    <img src="{{ $src }}" alt="{{ $alt }}">
+  </a>
+  {{- with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
