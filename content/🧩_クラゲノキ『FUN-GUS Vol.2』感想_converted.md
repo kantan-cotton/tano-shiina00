@@ -13,7 +13,7 @@ created: 2026-09-11 19:58:22
 date: 2026-09-26T16:55:03+09:00
 tags:
 weight:
-draft: true
+draft: false
 ---
 ![](https://img.tano-shiina.com/2026/09/0627502b-fa87-4bca-af43-f9725a09b0f7.jpeg)[https://booth.pm/ja/items/8711025]
 
