@@ -6,6 +6,7 @@ locale = 'ja'
 [params]
   env = "production"
   defaultTheme = "auto"
+  description = "たのしい。本や映画や日々考えたことについての個人的なログがあつまっている。"
   ShowReadingTime = false
   ShowShareButtons = true
   ShareButtons = ["x", "facebook", "line", "hatena", "bluesky"]
@@ -16,16 +17,14 @@ locale = 'ja'
   disableScrollToTop = false
   ShowToc = true
   TocOpen = true
+  DateFormat = "2006/01/02"
 
 [params.homeInfoParams]
   Title = "👻 Tano Shiina's Website 😱"
   Content =  """
-田野椎菜の個人サイト。
-
-たのしいな。
-
-ヒトがつくったものと、ヒトがつくっていないものについてよく書く。
-
+田野椎菜の個人サイト。  
+たのしいな。  
+ヒトがつくったものと、ヒトがつくっていないものについてよく書く。  
 げんざい整備中です (2026-09～) 
 """
 

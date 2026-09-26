@@ -259,3 +259,12 @@ h6 {
 :root[data-theme="dark"] {
   --content: #D0D0D0;
 }
+
+/* home-infoフォントカラー */
+.home-info .entry-content {
+  color: #333333;
+}
+
+:root[data-theme="dark"] .home-info .entry-content {
+  color: #D0D0D0;
+}
