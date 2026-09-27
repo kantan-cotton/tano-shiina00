@@ -1,0 +1,11 @@
+<a
+  href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- $url := urls.Parse .Destination }}
+  {{- if and $url.Host (not (or (eq $url.Host "tano-shiina.com") (eq $url.Host "www.tano-shiina.com"))) }}
+    target="_blank"
+    rel="noopener noreferrer"
+  {{- end }}
+>
+  {{ .Text | safeHTML }}
+</a>

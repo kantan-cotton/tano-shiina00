@@ -81,7 +81,7 @@ draft: false
 　
 　関係ないですがリンク先のサイトでこの記事読んだらおもしろかったです。見ることのおもしろさってこういうところですよね。紹介されているマーティン・パーのインタビューも読めてよかった。  
 
-<a class="article-card" href="https://blog.hyodo-arch.com/%E3%82%A2%E3%83%BC%E3%83%88/parr%E3%81%AE%E3%83%A6%E3%83%8B%E3%82%AF%E3%83%ADt%E3%82%B7%E3%83%A3%E3%83%84%E3%81%AB%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F">
+<a class="article-card" href="https://blog.hyodo-arch.com/%E3%82%A2%E3%83%BC%E3%83%88/parr%E3%81%AE%E3%83%A6%E3%83%8B%E3%82%AF%E3%83%ADt%E3%82%B7%E3%83%A3%E3%83%84%E3%81%AB%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F" target="_blank" rel="noopener noreferrer">
   <img class="article-card-image" src="https://blog.hyodo-arch.com/static/og-image.png" alt="">
   <span class="article-card-content">
     <span class="article-card-title">ParrのユニクロTシャツにアングルを見つけた | 無聊写記</span>
@@ -89,7 +89,7 @@ draft: false
   </span>
 </a>
 
-<a class="article-card" href="https://www.uniqlo.com/jp/ja/news/topics/2026030501/">
+<a class="article-card" href="https://www.uniqlo.com/jp/ja/news/topics/2026030501/"  target="_blank" rel="noopener noreferrer">
   <img class="article-card-image" src="https://www.uniqlo.com/jp/ja/news/topics/2026030501/img/thumb.jpg" alt="">
   <span class="article-card-content">
     <span class="article-card-title">マーティン・パーと歩くルーヴル美術館｜UNIQLO TODAY'S PICK UP</span>
