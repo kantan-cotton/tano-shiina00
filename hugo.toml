@@ -2,6 +2,7 @@ baseURL = 'https://tano-shiina.com/'
 title = 'たのしいな。'
 theme = 'PaperMod'
 locale = 'ja'
+enableRobotsTXT = true
 
 [params]
   env = "production"
