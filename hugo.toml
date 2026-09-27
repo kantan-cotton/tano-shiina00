@@ -22,7 +22,7 @@ locale = 'ja'
 [params.homeInfoParams]
   Title = "👻 Kibi Shiina's Website 😱"
   Content =  """
-「たのしいな。」は、吉備椎菜の個人サイトです。     
+「たのしいな。」は、<ruby> 吉備 <rp>(</rp><rt>きび</rt><rp>)</rp> </ruby><ruby> 椎菜 <rp>(</rp><rt>しいな</rt><rp>)</rp> </ruby>の個人サイトです。     
 ヒトがつくったものと、ヒトがつくっていないものについてよく書く。  
 げんざい整備中 (2026-09～) 
 """

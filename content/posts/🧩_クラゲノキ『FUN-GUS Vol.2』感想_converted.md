@@ -6,7 +6,7 @@ genre: "[[SF]]"
 feature: "[[📖_FUN-GUS Vol.2]]"
 title: クラゲノキ『FUN-GUS Vol.2』感想
 source:
-description: クラゲノキ『FUN-GUS Vol.2』のレビュー記事。
+description: 吸血鬼をテーマにしたアンソロジーであるクラゲノキ『FUN-GUS Vol.2』のレビューを書いていく。
 published: 2026-09-12
 modified: 2026-09-27
 created: 2026-09-11 19:58:22
