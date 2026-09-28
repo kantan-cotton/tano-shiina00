@@ -27,6 +27,7 @@ enableRobotsTXT = true
 ヒトがつくったものと、ヒトがつくっていないものについてよく書く。  
 げんざい整備中 (2026-09～) 
 """
+  AlignSocialIconsTo = "center"
 
 [[params.socialIcons]]
   name = "mastodon"
@@ -88,3 +89,6 @@ enableRobotsTXT = true
 
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
