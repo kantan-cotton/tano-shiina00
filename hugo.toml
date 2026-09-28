@@ -29,8 +29,16 @@ enableRobotsTXT = true
 """
 
 [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://fedibird.com/@simulfix"
+
+[[params.socialIcons]]
   name = "x"
-  url = "https://x.com/アカウント名"
+  url = "https://x.com/ユーザー名"
+
+[[params.socialIcons]]
+  name = "RSS"
+  url = "https://tano-shiina.com/index.xml"
 
 [params.cover]
   hidden = false
