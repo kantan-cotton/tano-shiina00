@@ -64,8 +64,11 @@
 {{- end }}
 
 <article class="{{ $class }}">
-  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+{{- with index .Params.images 0 }}
+<figure class="entry-cover">
+  <img src="{{ . | absURL }}" alt="" loading="lazy">
+</figure>
+{{- end }}
   <header class="entry-header">
     <h2 class="entry-hint-parent">
       {{- .Title }}
@@ -79,11 +82,11 @@
       {{- end }}
     </h2>
   </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Description | plainify | htmlUnescape }}</p>
-  </div>
-  {{- end }}
+{{- if (ne (.Param "hideSummary") true) }}
+<div class="entry-content">
+    <p>{{ .Params.description | plainify | htmlUnescape }}</p>
+</div>
+{{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
