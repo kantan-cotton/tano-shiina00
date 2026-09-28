@@ -220,11 +220,11 @@ h6 {
 }
 
 .post-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .post-content h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .post-content h2 {
@@ -232,19 +232,19 @@ h6 {
 }
 
 .post-content h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .post-content h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .post-content h5 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .post-content h6 {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .post-description {
@@ -291,4 +291,8 @@ h6 {
   object-fit: cover;
   margin: 0 auto;
   border-radius: 8px;
+}
+
+.entry-header h2 {
+    font-size: 1.3rem;
 }
