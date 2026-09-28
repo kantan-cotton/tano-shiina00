@@ -3,6 +3,7 @@ title: About
 layout: single
 modified: 2026-09-28
 created: 2026-09-26
+showtoc: false
 ---
 ## 👻管理者
 整備中～
