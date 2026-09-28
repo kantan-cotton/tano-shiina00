@@ -295,4 +295,7 @@ h6 {
 
 .entry-header h2 {
     font-size: 1.3rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom:0;
 }
