@@ -12,22 +12,44 @@ h1 {
 
 /* H2: 大見出し（二重下線） */
 h2 {
-  border-bottom: 3px double;
-  padding-bottom: 10px;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  display: block;
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  display: inline-block;
+  top:0;
+}
+
+h2:before, h2:after { 
+  position: absolute;
+  top: 0;
+  content:'';
+  width: 8px;
+  height: 100%;
+  display: inline-block;
+}
+h2:before {
+  border-left: solid 1px ;
+  border-top: solid 1px ;
+  border-bottom: solid 1px ;
+  left: 0;
+}
+h2:after {
+  content: '';
+  border-top: solid 1px ;
+  border-right: solid 1px ;
+  border-bottom: solid 1px ;
+  right: 0;
 }
 
 /* H3: セクションの大きな区切り（グラデーション下線） */
 h3 {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid ;
   border-image: linear-gradient(
     90deg,
     currentColor 0%,
     rgba(0, 0, 0, 0) 90%
   ) 1;
-  padding-bottom: 8px;
+  padding-bottom: 8px ;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   display: block;
@@ -213,6 +235,9 @@ h6 {
 
 .entry-header h2 {
   line-height: 1.4;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom:0;
 }
 
 .first-entry .entry-header h1 {
@@ -291,11 +316,4 @@ h6 {
   object-fit: cover;
   margin: 0 auto;
   border-radius: 8px;
-}
-
-.entry-header h2 {
-    font-size: 1.3rem;
-    line-height: 1.4;
-    margin-top: 0;
-    margin-bottom:0;
 }
