@@ -57,7 +57,7 @@ draft: false
 ### 対策
 
 - コールアウトに`+`がつけられている場合だけ、デフォルトで展開した状態にするように指定する。
-- Hugoではサイト側のレイアウトに同名のファイルを置くことで、テーマ側のテンプレートを上書きできる。これによって、hugo-admonitions本体を書き換えずに済む。
+- Hugoではサイト側のレイアウトに同名のファイルを置くことで、テーマ側のテンプレートを上書きできる。
 
 1. `themes\hugo-admonitions\layouts\_default\_markup`にある、render-blockquote-alert.htmlを、サイト側の`layouts/_default/_markup/`にコピー
 2. コピーした方のrender-blockquote-alert.htmlをテキストエディタで開いて、`<details class="admonition {{ $type }}">`を、`<details class="admonition {{ $type }}"{{ if eq .AlertSign "+" }} open{{ end }}>`に変更
