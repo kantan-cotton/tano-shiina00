@@ -23,7 +23,6 @@ weight:
 draft: false
 ---
 ![](/images/ogp/wepvf6x7.png)
-# Calloutsが使えるようになるHugo admonitionsを導入する
 
 ## 前書き
 
