@@ -1,7 +1,7 @@
 ---
 title: About
 layout: single
-modified: 2026-09-28
+modified: 2026-09-29 01:39:58
 created: 2026-09-26
 showtoc: false
 ---
@@ -11,9 +11,9 @@ showtoc: false
 
 ## 🗨️カテゴリー案内
 
-- [Book](https://tano-shiina.com/categories/book/)：本を読むと、なにかしら感じたり思ったりをする📖
-- Video：映画やらアニメやら。映像記憶能力よわめ🎬
-- [Essay](https://tano-shiina.com/categories/essay/)：つまるところ雑文のたぐい✒
+- [Book](https://tano-shiina.com/categories/book/)：本を読むと、なにかしら感じたり思ったりをする
+- Video：映画やらアニメやら。映像記憶能力よわめ
+- [Essay](https://tano-shiina.com/categories/essay/)：つまるところ雑文のたぐい
 
 ## 📎リンク
 - [Fedibird](https://fedibird.com/@simulfix)：おもにここにいる

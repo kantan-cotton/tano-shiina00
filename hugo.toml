@@ -1,6 +1,6 @@
 baseURL = 'https://tano-shiina.com/'
 title = 'たのしいな。'
-theme = 'PaperMod'
+theme = ['hugo-admonitions', 'PaperMod']
 locale = 'ja'
 enableRobotsTXT = true
 
