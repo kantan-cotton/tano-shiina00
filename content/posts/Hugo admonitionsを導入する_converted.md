@@ -11,7 +11,7 @@ aliases:
 source:
 description: HugoでObsidianのCallouts記法を使うために、KKKZOZ氏が作成したHugo admonitionsを導入する
 created: 2026-09-29 09:18:38
-modified: 2026-09-29 11:17:19
+modified: 2026-09-29 11:28:53
 slug: wepvf6x7
 images:
   - /images/ogp/wepvf6x7.png
@@ -22,8 +22,8 @@ tags:
 weight:
 draft: false
 ---
-
-# Hugo admonitionsを導入する
+![](/images/ogp/wepvf6x7.png)
+# Calloutsが使えるようになるHugo admonitionsを導入する
 
 ## 前書き
 

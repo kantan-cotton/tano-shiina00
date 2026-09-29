@@ -13,7 +13,7 @@ description: 自身の体験をもとに、SSGのQuartzのよかったところ�
 aliases:
 source:
 created: 2026-09-26 19:59:43
-modified: 2026-09-29 09:34:44
+modified: 2026-09-29 11:32:09
 slug: 0fhzhj3l
 images:
   - /images/ogp/0fhzhj3l.png
@@ -24,8 +24,7 @@ tags:
 weight:
 draft: false
 ---
-
-# 静的サイトジェネレータのQuartzを試したときの感想を書く
+![](/images/ogp/0fhzhj3l.png)
 
 ## 前書き
 
