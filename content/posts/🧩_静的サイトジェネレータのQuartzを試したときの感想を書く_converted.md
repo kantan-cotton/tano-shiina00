@@ -13,7 +13,7 @@ description: 自身の体験をもとに、SSGのQuartzのよかったところ�
 aliases:
 source:
 created: 2026-09-26 19:59:43
-modified: 2026-09-29 04:17:54
+modified: 2026-09-29 05:47:09
 slug: 0fhzhj3l
 images:
   - /images/ogp/0fhzhj3l.png
@@ -46,7 +46,7 @@ draft: false
 　だから普通はObsidianのノートをアップしたいと思ったら、いちいちダブルブラケットを消したり、リンクを貼りなおしたりしなくちゃいけない。
 　他にもコールアウトや==こうやって==イコール2つで囲むタイプのハイライトとか……。直さなくてはいけない箇所って意外と多い。 
 
-> [!NOTE]+ コールアウトに関して
+> [!NOTE]+ Hugoにおけるコールアウトに関して
 > - Hugoでは[Render hooks](https://gohugo.io/render-hooks/blockquotes/#alerts)を利用してObisidianのCallouts記法をそのまま採用できるが、デフォルトで備わっているわけではなく、使う側が自分で対応する必要がある。
 > - もしくは有志が作成した[Hugo-admonitions](https://github.com/KKKZOZ/hugo-admonitions)というモジュールを使う手もある。
 > 	- しかしなぜかこのモジュールでも`+` / `-`を使ってコールアウトを「デフォルトで展開した状態にするか、折りたたんだ状態にするか」の指定がうまく機能しなかった。
