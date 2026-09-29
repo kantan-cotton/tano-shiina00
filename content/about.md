@@ -17,5 +17,4 @@ showtoc: false
 
 ## 📎リンク
 - [Fedibird](https://fedibird.com/@simulfix)：おもにここにいる
-- [X (旧Twitter)](https://x.com/kibi_shiina)：ほぼ確保してあるだけ
 - [RSS](https://tano-shiina.com/index.xml)：このサイトの更新が受け取れる
