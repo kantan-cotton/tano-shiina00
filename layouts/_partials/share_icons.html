@@ -108,6 +108,20 @@
 </li>
 {{- end }}
 
+{{- if (cond ($custom) (in $ShareButtons "mastodon") true) }}
+<li>
+  <a target="_blank" rel="noopener noreferrer"
+     href="https://share.joinmastodon.org/#text={{ $title | urlquery }}%20{{ $pageurl | urlquery }}"
+     aria-label="Mastodonで共有"
+     title="Mastodonで共有">
+    <img src="/images/mastodon.svg"
+         alt="Mastodon"
+         width="30"
+         height="30">
+  </a>
+</li>
+{{- end }}
+
 {{- if (cond ($custom) (in $ShareButtons "hatena") true) }}
 <li>
   <a target="_blank" rel="noopener noreferrer"
@@ -144,15 +158,15 @@
     data-url="{{ $pageurl }}"
     onclick="
       navigator.clipboard.writeText(this.dataset.url).then(() => {
-        this.innerHTML = '<img src=&quot;/images/circle-check-solid.svg&quot; alt=&quot;コピーしました&quot; width=&quot;20&quot; height=&quot;20&quot;>';
+        this.innerHTML = '<img src=&quot;/images/check-flat.svg&quot; alt=&quot;コピーしました&quot; width=&quot;20&quot; height=&quot;20&quot;>';
         setTimeout(() => {
-          this.innerHTML = '<img src=&quot;/images/copy-solid.svg&quot; alt=&quot;リンクをコピー&quot; width=&quot;20&quot; height=&quot;20&quot;>';
+          this.innerHTML = '<img src=&quot;/images/copy-2-flat.svg&quot; alt=&quot;リンクをコピー&quot; width=&quot;20&quot; height=&quot;20&quot;>';
         }, 1500);
       });
     "
   >
     <img
-      src="/images/copy-solid.svg"
+      src="/images/copy-2-flat.svg"
       alt="リンクをコピー"
       width="20"
       height="20">

@@ -13,7 +13,7 @@ description: 自身の体験をもとに、SSGのQuartzのよかったところ�
 aliases:
 source:
 created: 2026-09-26 19:59:43
-modified: 2026-09-29 03:33:44
+modified: 2026-09-29 04:17:54
 slug: 0fhzhj3l
 images:
   - /images/ogp/0fhzhj3l.png
@@ -46,9 +46,12 @@ draft: false
 　だから普通はObsidianのノートをアップしたいと思ったら、いちいちダブルブラケットを消したり、リンクを貼りなおしたりしなくちゃいけない。
 　他にもコールアウトや==こうやって==イコール2つで囲むタイプのハイライトとか……。直さなくてはいけない箇所って意外と多い。 
 
-> [!NOTE]+ Note
-> コールアウトに関して、Hugoでは[render hooks](https://gohugo.io/render-hooks/blockquotes/#alerts)を利用してObisidianの記法をそのまま採用できるが、デフォルトで備わっているわけではなく使う側が自分で対応する必要がある。
-> もしくは有志が作成した[Hugo-admonitions](https://github.com/KKKZOZ/hugo-admonitions)というモジュールを使う手もある。
+> [!NOTE]+ コールアウトに関して
+> - Hugoでは[Render hooks](https://gohugo.io/render-hooks/blockquotes/#alerts)を利用してObisidianのCallouts記法をそのまま採用できるが、デフォルトで備わっているわけではなく、使う側が自分で対応する必要がある。
+> - もしくは有志が作成した[Hugo-admonitions](https://github.com/KKKZOZ/hugo-admonitions)というモジュールを使う手もある。
+> 	- しかしなぜかこのモジュールでも`+` / `-`を使ってコールアウトを「デフォルトで展開した状態にするか、折りたたんだ状態にするか」の指定がうまく機能しなかった。
+> 	- なので、モジュール側のrender-blockquote-alert.htmlをサイト側の`layouts/_default/_markup/`にコピーしてから編集し、オーバーライドさせた。
+> 	- 具体的には、`<details class="admonition {{ $type }}">`を、`<details class="admonition {{ $type }}"{{ if eq .AlertSign "+" }} open{{ end }}>`に変更し、コールアウト記法に`+`がつけられている場合だけ、デフォルトで展開した状態にするよう指定している）。
 
 　プラグインや自作のプログラムを使ってそういうのを一括で変換する仕組みを確保することはできるのですが、ひと手間かかるのは事実です（「AIにやらせたら？」というのはまあそう。でも意外な見落としが多くて面倒なんだよな、そもそもその記法を使ってたことを忘れてるとか……）。  
 　
