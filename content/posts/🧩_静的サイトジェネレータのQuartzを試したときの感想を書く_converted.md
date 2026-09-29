@@ -13,7 +13,7 @@ description: 自身の体験をもとに、SSGのQuartzのよかったところ�
 aliases:
 source:
 created: 2026-09-26 19:59:43
-modified: 2026-09-29 09:32:59
+modified: 2026-09-29 09:34:44
 slug: 0fhzhj3l
 images:
   - /images/ogp/0fhzhj3l.png
@@ -46,7 +46,13 @@ draft: false
 　だから普通はObsidianのノートをアップしたいと思ったら、いちいちダブルブラケットを消したり、リンクを貼りなおしたりしなくちゃいけない。
 　他にもコールアウトや==こうやって==イコール2つで囲むタイプのハイライトとか……。直さなくてはいけない箇所って意外と多い。 
 
-
+<a class="article-card" href="https://tano-shiina.com/2026/09/29/wepvf6x7/" target="_blank" rel="noopener noreferrer">
+  <img class="article-card-image" src="https://tano-shiina.com/images/ogp/wepvf6x7.png" alt="">
+  <span class="article-card-content">
+    <span class="article-card-title">Calloutsが使えるようになるHugo admonitionsを導入する</span>
+    <span class="article-card-description">HugoでObsidianのCallouts記法を使うために、KKKZOZ氏が作成したHugo admonitionsを導入する</span>
+  </span>
+</a>
 
 　プラグインや自作のプログラムを使ってそういうのを一括で変換する仕組みを確保することはできるのですが、ひと手間かかるのは事実です（「AIにやらせたら？」というのはまあそう。でも意外な見落としが多くて面倒なんだよな、そもそもその記法を使ってたことを忘れてるとか……）。  
 　
