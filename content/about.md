@@ -1,7 +1,7 @@
 ---
 title: About
 layout: single
-modified: 2026-09-30 01:48:12
+modified: 2026-10-02 01:08:49
 created: 2026-09-26
 showtoc: false
 ---
@@ -18,3 +18,8 @@ showtoc: false
 ## 📎リンク
 - [Fedibird](https://fedibird.com/@simulfix)：おもにここにいる
 - [RSS](https://tano-shiina.com/index.xml)：このサイトの更新が受け取れる
+
+## 権利表記
+Font Awesome Freeのアイコンを使用しています。
+- [Font Awesome](https://fontawesome.com/)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
