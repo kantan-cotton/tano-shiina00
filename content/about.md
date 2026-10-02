@@ -3,7 +3,7 @@ title: About
 layout: single
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-10-02 01:47:22
+modified: 2026-10-02 11:23:14
 showtoc: false
 ---
 
@@ -26,7 +26,16 @@ showtoc: false
 
 ## 権利表記
 
-Font Awesome Freeのアイコンを使用しています。
+以下の箇所でそれぞれフリーアイコンを使用しています。
 
-- [Font Awesome](https://fontawesome.com/)
-- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+#### favicon
+- [ICOON MONO: ゴーストアイコン1](https://icooon-mono.com/13499-%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B31/)
+
+#### OGP画像
+- [Font Awesome: ghost](https://fontawesome.com/icons/classic/solid/ghost)[^1]
+
+#### シェアボタン
+- [Streamline: Flex Color Icons (`copy-2-flat`)](https://allsvgicons.com/pack/streamline-flex-color/#copy-2-flat) [^1]
+- [Streamline: Streamline Color (`check-flat`)](https://allsvgicons.com/pack/streamline-color/#check-flat) [^1]
+
+[^1]: License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
