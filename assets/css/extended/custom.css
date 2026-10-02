@@ -10,7 +10,7 @@ h1 {
   display: block;
 }
 
-/* H2: 大見出し（二重下線） */
+/* H2: 大見出し */
 h2 {
   position: relative;
   line-height: 1.4;
@@ -57,13 +57,9 @@ h3 {
 
 /* H4: 小さな区切り（左線＋下線） */
 h4 {
-  position: relative;
-  margin-top: 1.5rem;
-  margin-bottom: 0.2rem;
-  padding: 0.4rem 0.8rem;
-  border-left: 4px solid;
-  border-bottom: 1px solid;
-  border-radius: 2px 0 0 2px;
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 3px ;/*左線*/
 }
 
 /* H5: 吹き出し風 */

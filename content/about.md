@@ -3,7 +3,7 @@ title: About
 layout: single
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-10-02 11:23:14
+modified: 2026-10-02 11:37:56
 showtoc: false
 ---
 
@@ -32,6 +32,7 @@ showtoc: false
 - [ICOON MONO: ゴーストアイコン1](https://icooon-mono.com/13499-%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B31/)
 
 #### OGP画像
+
 - [Font Awesome: ghost](https://fontawesome.com/icons/classic/solid/ghost)[^1]
 
 #### シェアボタン
