@@ -115,17 +115,17 @@ h5::after {
 }
 
 /* 引用 */
-blockquote {
-  border-left: 3px solid #EA8D1F;
-  background-color: rgba(234, 141, 31, 0.08);
-  padding: 0.8rem 1rem;
+.post-content blockquote {
+    background: none;
+    border: 1px solid #EA8D1F;
+    padding: 1.5em 2em;
 }
 
 /* 引用符 */
 blockquote::before {
   font: 14px/20px "Helvetica Neue", serif;
   content: "“";
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 0.1em;
   vertical-align: -0.4em;
   color: #EA8D1F;
@@ -134,7 +134,7 @@ blockquote::before {
 blockquote::after {
   font: 14px/20px "Helvetica Neue", serif;
   content: "”";
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 0.1em;
   vertical-align: -0.4em;
   color: #EA8D1F;
