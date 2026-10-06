@@ -11,10 +11,10 @@ aliases:
 source:
 description: HugoでObsidianのCallouts記法を使うために、KKKZOZ氏が作成したHugo admonitionsを導入する
 created: 2026-09-29 09:18:38
-modified: 2026-09-29 11:28:53
+modified: 2026-10-06 09:25:19
 slug: wepvf6x7
 images:
-  - /images/ogp/wepvf6x7.png
+  - /images/posts/wepvf6x7/ogp.png
 date: 2026-09-29T21:18:38+09:00
 tags:
   - Obisidian
@@ -22,7 +22,7 @@ tags:
 weight:
 draft: false
 ---
-![](/images/ogp/wepvf6x7.png)
+![](/images/posts/wepvf6x7/ogp.png)
 
 ## 前書き
 

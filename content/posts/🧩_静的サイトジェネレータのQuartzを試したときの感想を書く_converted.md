@@ -13,10 +13,10 @@ description: 自身の体験をもとに、SSGのQuartzのよかったところ�
 aliases:
 source:
 created: 2026-09-26 19:59:43
-modified: 2026-09-29 11:32:09
+modified: 2026-10-06 10:04:11
 slug: 0fhzhj3l
 images:
-  - /images/ogp/0fhzhj3l.png
+  - /images/posts/0fhzhj3l/ogp.png
 date: 2026-09-27T20:12:53+09:00
 tags:
   - 書くこと
@@ -24,7 +24,7 @@ tags:
 weight:
 draft: false
 ---
-![](/images/ogp/0fhzhj3l.png)
+![](/images/posts/0fhzhj3l/ogp.png)
 
 ## 前書き
 

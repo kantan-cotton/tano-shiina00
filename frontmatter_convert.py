@@ -166,13 +166,24 @@ else:
 
 
 # ========================================
+# 記事画像フォルダを作成
+# ========================================
+
+image_dir = Path(
+    r"C:\Users\white\Documents\PaperMod\static\images\posts"
+) / new_slug
+
+image_dir.mkdir(parents=True, exist_ok=True)
+
+
+# ========================================
 # OGP画像設定
 # ========================================
 
 if "images" not in found:
     converted.append("images:")
     converted.append(
-        f'  - "/images/ogp/{new_slug}.png"'
+        f'  - "/images/posts/{new_slug}/ogp.webp"'
     )
 
 
@@ -206,7 +217,7 @@ output_text = (
     + body
 )
 
-output_path = output_dir / f"{source_path.stem}_converted.md"
+output_path = output_dir / f"{source_path.stem}_{new_slug}.md"
 
 output_path.write_text(
     output_text,
@@ -223,7 +234,8 @@ print()
 print(f"入力:  {source_path}")
 print(f"出力:  {output_path}")
 print(f"slug:  {new_slug}")
-print(f"OGP:   /images/ogp/{new_slug}.png")
+print(f"画像:  {image_dir}")
+print(f"OGP:   /images/posts/{new_slug}/ogp.webp")
 print()
 
 input("Enterキーで終了します...")

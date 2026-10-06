@@ -8,7 +8,7 @@ title: クラゲノキ『FUN-GUS Vol.2』感想
 source:
 description: 吸血鬼をテーマにしたアンソロジーであるクラゲノキ『FUN-GUS Vol.2』のレビューを書いていく。
 published: 2026-09-12
-modified: 2026-09-29 11:32:19
+modified: 2026-10-06 09:24:00
 created: 2026-09-11 19:58:22
 date: 2026-09-26T16:55:03+09:00
 tags:
@@ -17,9 +17,9 @@ weight:
 draft: false
 slug: q4v8n3cd
 images:
-  - /images/ogp/q4v8n3cd.jpeg
+  - /images/posts/q4v8n3cd/ogp.jpeg
 ---
-{{< img "/images/ogp/q4v8n3cd.jpeg" "https://booth.pm/ja/items/8711025" "クラゲノキ『FUN-GUS Vol.2』表紙画像" "表紙イラスト：メグリム・ハルヨ" >}}
+{{< img "/images/posts/q4v8n3cd/ogp.jpeg" "https://booth.pm/ja/items/8711025" "クラゲノキ『FUN-GUS Vol.2』表紙画像" "表紙イラスト：メグリム・ハルヨ" >}}
 
 ## 前書き
 

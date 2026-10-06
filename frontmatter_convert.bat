@@ -1,5 +1,4 @@
 @echo off
-cd /d "C:\Users\white\Documents\PaperMod"
 
 if "%~1"=="" (
     echo MarkdownファイルをこのBATファイルにドラッグ＆ドロップしてください。
@@ -7,7 +6,7 @@ if "%~1"=="" (
     exit /b
 )
 
-python frontmatter_convert.py "%~1"
+python "%~dp0frontmatter_convert.py" "%~1"
 
 echo.
 pause
