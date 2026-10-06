@@ -11,7 +11,7 @@ aliases:
 source:
 description: HugoでObsidianのCallouts記法を使うために、KKKZOZ氏が作成したHugo admonitionsを導入する
 created: 2026-09-29 09:18:38
-modified: 2026-10-06 09:25:19
+modified: 2026-10-06 11:30:12
 slug: wepvf6x7
 images:
   - /images/posts/wepvf6x7/ogp.png
@@ -37,7 +37,8 @@ draft: false
 > [!INFO]
 > - Hugoのバージョン：v0.166+extend
 > - Hugoで使用しているテーマ：PaperMod
-> - テーマとしてではなくGit submoduleとしてインストールする理由は以下
+> - 使用しているホスティングサービス：GitHub Pages
+> - Hugo-admonitionsをテーマとしてではなくGit submoduleとしてインストールする理由は以下
 > 	- テーマやモジュールをサイト本体のリポジトリにコピーせず、それぞれのバージョンをGitで管理しやすくするため
 
 1. 使っているHugoサイトのルートディレクトリで、Powershellなどから`git submodule add --depth 1 https://github.com/KKKZOZ/hugo-admonitions.git themes/hugo-admonitions`を実行
