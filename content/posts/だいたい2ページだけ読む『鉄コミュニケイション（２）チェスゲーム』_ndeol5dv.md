@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Book]]"
+  - Book
 class:
 type:
 genre:
@@ -11,7 +11,7 @@ aliases:
 source:
 description: 秋山瑞人『鉄コミュニケイション（２）チェスゲーム』の発電風車の丘へ向かうシーンを精読する
 created: 2026-10-15 20:51:13
-modified: 2026-10-17 05:37:10
+modified: 2026-10-18 08:58:05
 slug: ndeol5dv
 images:
   - /images/posts/ndeol5dv/ogp.webp
@@ -118,6 +118,15 @@ draft: false
 　ただな、なんかな、そういう読み方って自堕落なのではないかと思うてな……オタクの深読みと誹られようと、小説を読むことや小説を書くことを舐めてはいけないと思うのじゃよね……。
 　だってそれは他人を侮ることにつながるでしょう？　まあ他人を理解できると思いこむこともそれは侮りなのだけれども……だけれどもねえ！
 　というわけで秋山瑞人の文体そのものの話はいつかやれたらやります。理解したと思いこめたそのときに……。
+
+<a class="article-card" href="https://www.amazon.co.jp/鉄コミュニケイション（２）チェスゲーム-電撃文庫-秋山-瑞人-ebook/dp/B0BXVTPKZ5" target="_blank" rel="noopener noreferrer">
+  <img class="article-card-image" src="https://m.media-amazon.com/images/I/814BSJBYJSL.jpg_BO30,255,255,255_UF800,800_SR860,800,1,L_SR1910,1000,0,R_PI2026-pbdd-socialshare-main-ja-JP-d-nondeal,TopLeft,0,0_ZJPHNwYW4gZm9yZWdyb3VuZD0iIzBGMTExMSIgZm9udD0iQW1hem9uRW1iZXIgNTUiPjQuNjwvc3Bhbj4=,82,820,420,420,0,0_PIRIOFOURANDHALF-medium-V2,TopLeft,190,820_ZJPHNwYW4gZm9yZWdyb3VuZD0iIzU2NTk1OSIgZm9udD0iQW1hem9uRW1iZXIgNTUiPig0Myk8L3NwYW4+,650,820,420,420,0,0_QL100_.jpg" alt="">
+  <span class="article-card-content">
+    <span class="article-card-title">鉄コミュニケイション（２）チェスゲーム (電撃文庫)</span>
+    <span class="article-card-description">イーヴァとの仲直りのためにキャンプに向かったハルカたち。その帰り道、最強の敵ナイトとビショップが現れた！人気コミックのノベライズ、感動の完結編！</span>
+  </span>
+</a>
+
 
 [^1]: ストーリー原案: かとうひでお, 漫画: たくま朋正, 秋山瑞人『鉄コミュニケイション（２）チェスゲーム』, 株式会社KADOKAWA, 2023, Kindle版. 
 
