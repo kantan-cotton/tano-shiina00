@@ -6,7 +6,7 @@ type:
 genre:
   - "[[Review]]"
 feature:
-title: 幾重にも混乱が：『稗 The Dream of A Cockspur』レビュー
+title: 幾重ものあてどなさ：『稗 The Dream of A Cockspur』レビュー
 author:
 aliases:
 source:
