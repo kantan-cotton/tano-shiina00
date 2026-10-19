@@ -3,20 +3,19 @@ title: About
 layout: single
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-10-02 11:37:56
+modified: 2026-10-19 09:26:07
 showtoc: false
 ---
 
 ## 👻管理者
 
-整備中～
-
 - P.N：<ruby> 吉備 <rp>(</rp><rt>きび</rt><rp>)</rp> </ruby><ruby> 椎菜 <rp>(</rp><rt>しいな</rt><rp>)</rp> </ruby>
 
-## 🗨️カテゴリー案内
+## ☃️カテゴリー案内
 
 - [Book](https://tano-shiina.com/categories/book/)：本を読むと、なにかしら感じたり思ったりをする
-- Video：映画やらアニメやら。映像記憶能力よわめ
+- [Game](https://tano-shiina.com/categories/game/)：画面酔いしやすい
+- [PKM](https://tano-shiina.com/categories/pkm/)：自分で決めたはずのサイトの設定やメモの方針って忘れがち
 - [Essay](https://tano-shiina.com/categories/essay/)：つまるところ雑文のたぐい
 
 ## 📎リンク
