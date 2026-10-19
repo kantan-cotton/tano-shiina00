@@ -1,6 +1,6 @@
 ---
 categories:
-  - Web制作
+  - PKM
 class:
 type:
 genre:

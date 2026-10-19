@@ -1,6 +1,6 @@
 ---
 categories:
-  - Web制作
+  - PKM
 class:
 type:
 genre:
@@ -11,7 +11,7 @@ aliases:
 source:
 description: HugoでObsidianのCallouts記法を使うために、KKKZOZ氏が作成したHugo admonitionsを導入する
 created: 2026-09-29 09:18:38
-modified: 2026-10-07 12:00:04
+modified: 2026-10-19 09:20:00
 slug: wepvf6x7
 images:
   - /images/posts/wepvf6x7/ogp.png
