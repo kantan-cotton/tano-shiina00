@@ -9,9 +9,9 @@ title: Obsidian Basesを使って今月作成したファイル一覧を内部�
 author:
 aliases:
 source:
-description:
+description: ノートプロパティさえ設定していれば、Basesを使って月ごとの読書記録なども簡単に内部リンクとして取得できる。
 created: 2026-10-19 15:58:33
-modified: 2026-10-19 09:15:10
+modified: 2026-10-19 11:16:46
 slug: 0nwynuoi
 images:
   - /images/posts/0nwynuoi/ogp.webp
