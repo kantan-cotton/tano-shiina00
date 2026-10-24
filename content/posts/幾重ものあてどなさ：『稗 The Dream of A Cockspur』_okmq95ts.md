@@ -12,12 +12,14 @@ aliases:
 source:
 description: roccayによるポイント&クリックゲーム『稗 The Dream of A Cockspur』の感想を書く
 created: 2026-10-18 16:06:30
-modified: 2026-10-18 08:55:28
+modified: 2026-10-24 08:37:04
 slug: okmq95ts
 images:
   - /images/posts/okmq95ts/ogp.webp
 date: 2026-10-18T20:21:36+09:00
 tags:
+  - ホラー
+  - SF
 weight:
 draft: false
 ---
