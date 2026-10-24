@@ -12,7 +12,7 @@ aliases:
 source:
 description: オズグッド・パーキンス『THE MONKEY／ザ・モンキー』をレビューし、最後には猿回しのサルのごとく反省の姿勢をみせる。
 created: 2026-10-23 14:43:20
-modified: 2026-10-24 08:46:41
+modified: 2026-10-24 08:58:33
 slug: q3k7eexz
 images:
   - /images/posts/q3k7eexz/ogp.webp

@@ -3,7 +3,7 @@ title: About
 layout: single
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-10-19 09:26:24
+modified: 2026-10-24 11:35:33
 showtoc: false
 ---
 
@@ -14,8 +14,9 @@ showtoc: false
 ## ☃️カテゴリー案内
 
 - [Book](https://tano-shiina.com/categories/book/)：本を読むと、なにかしら感じたり思ったりをする
+- [Video](https://tano-shiina.com/categories/video/)：映像作品ぜんぱん🍞
 - [Game](https://tano-shiina.com/categories/game/)：画面酔いしやすい
-- [PKM](https://tano-shiina.com/categories/pkm/)：自分で決めたはずのサイトの設定やメモの方針って忘れがち
+- [PKM](https://tano-shiina.com/categories/pkm/)：自分で決めたはずのサイトの設定やメモの方針を忘れがち
 - [Essay](https://tano-shiina.com/categories/essay/)：つまるところ雑文のたぐい
 
 ## 📎リンク
