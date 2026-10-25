@@ -12,7 +12,7 @@ aliases:
 source:
 description: オズグッド・パーキンス『THE MONKEY／ザ・モンキー』をレビューし、最後には猿回しのサルのごとく反省の姿勢をみせる。
 created: 2026-10-23 14:43:20
-modified: 2026-10-25 09:04:54
+modified: 2026-10-25 09:08:09
 slug: q3k7eexz
 images:
   - /images/posts/q3k7eexz/ogp.webp
@@ -35,8 +35,8 @@ draft: false
 > 息子たちのために買ったが、息子らは絶対に喜ばない。
 
 {{< youtube -LqL-gRiX7c >}}
-&nbsp;
 
+&nbsp;
 　このように幕を開けた映画が「家族」を軸に展開することは、なにも不思議ではない。
 　映画のほとんどの時間で視点人物を担うハル。
 　彼を虐げる双子の兄であるビル。
