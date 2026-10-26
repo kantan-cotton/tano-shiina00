@@ -3,13 +3,14 @@ title: About
 layout: single
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-10-26 10:05:31
+modified: 2026-10-26 10:11:16
 showtoc: false
 ---
 
 ## 👻管理者
 
 - P.N：<ruby> 吉備 <rp>(</rp><rt>きび</rt><rp>)</rp> </ruby><ruby> 椎菜 <rp>(</rp><rt>しいな</rt><rp>)</rp> </ruby>
+- お問い合わせページは[こちら](https://tano-shiina.com/contact/)
 
 ## ☃️カテゴリー案内
 
