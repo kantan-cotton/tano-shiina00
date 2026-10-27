@@ -322,3 +322,62 @@ h6 {
     padding-right: 8px;
   }
 }
+
+.related-content {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.related-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.related-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-list li {
+    margin: 0;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.related-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.related-image {
+    width: 120px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.related-text {
+    min-width: 0;
+}
+
+.related-title {
+    font-weight: 600;
+}
+
+.related-description {
+    margin: 0.4rem 0 0;
+    font-size: 0.875rem;
+    color: var(--secondary);
+}
+
+@media screen and (max-width: 480px) {
+    .related-image {
+        width: 90px;
+    }
+}

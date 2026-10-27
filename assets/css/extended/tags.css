@@ -1,0 +1,15 @@
+.post-tags-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.post-tags-label {
+    flex-shrink: 0;
+    color: var(--secondary);
+}
+
+.post-tags {
+    margin: 0;
+}

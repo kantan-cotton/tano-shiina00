@@ -91,3 +91,20 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 30
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 80
+
+  [[related.indices]]
+    name = "keywords"
+    weight = 50

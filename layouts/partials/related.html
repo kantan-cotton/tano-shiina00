@@ -1,0 +1,27 @@
+{{- $related := site.RegularPages.Related . | first 3 -}}
+{{- if $related }}
+<section class="related-content">
+    <h2>関連記事</h2>
+    <ul class="related-list">
+        {{- range $related }}
+        <li>
+            <a class="related-item" href="{{ .RelPermalink }}">
+                {{- with .Params.images }}
+                {{- $image := index . 0 }}
+                <img class="related-image"
+                     src="{{ $image | absURL }}"
+                     alt=""
+                     loading="lazy">
+                {{- end }}
+                <div class="related-text">
+                    <span class="related-title">{{ .LinkTitle }}</span>
+                    {{- with .Description }}
+                    <p class="related-description">{{ . }}</p>
+                    {{- end }}
+                </div>
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</section>
+{{- end }}

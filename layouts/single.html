@@ -49,18 +49,19 @@
 
   {{- partial "extend_post_content.html" . }}
 
+  {{- partial "related.html" . }}
+
   <footer class="post-footer">
-    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
+       {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    {{- with ($.GetTerms $tags) }}
+    <div class="post-tags-section">
+      <span class="post-tags-label">🏷️ Tags: </span>
+      <ul class="post-tags">
+        {{- range . }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+      </ul>
+    </div>
     {{- end }}
   </footer>
 

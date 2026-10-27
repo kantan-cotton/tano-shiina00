@@ -46,7 +46,7 @@ draft: false
 　他にもコールアウトや==こうやって==イコール2つで囲むタイプのハイライトとか……。直さなくてはいけない箇所って意外と多い。 
 
 <a class="article-card" href="https://tano-shiina.com/2026/09/29/wepvf6x7/" target="_blank" rel="noopener noreferrer">
-  <img class="article-card-image" src="https://tano-shiina.com/images/ogp/wepvf6x7.png" alt="">
+  <img class="article-card-image" src="https://tano-shiina.com/images/posts/wepvf6x7/ogp.png" alt="">
   <span class="article-card-content">
     <span class="article-card-title">Calloutsが使えるようになるHugo admonitionsを導入する</span>
     <span class="article-card-description">HugoでObsidianのCallouts記法を使うために、KKKZOZ氏が作成したHugo admonitionsを導入する</span>

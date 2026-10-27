@@ -87,6 +87,19 @@
     <p>{{ .Params.description | plainify | htmlUnescape }}</p>
 </div>
 {{- end }}
+{{- $categories := .GetTerms "categories" }}
+{{- $tags := .GetTerms "tags" }}
+{{- if or $categories $tags }}
+<div class="entry-taxonomies">
+    <span class="entry-taxonomy-label">🔗</span>
+  {{- range $categories }}
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{- end }}
+  {{- range $tags }}
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{- end }}
+</div>
+{{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
