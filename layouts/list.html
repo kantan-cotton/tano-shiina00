@@ -91,7 +91,6 @@
 {{- $tags := .GetTerms "tags" }}
 {{- if or $categories $tags }}
 <div class="entry-taxonomies">
-    <span class="entry-taxonomy-label">🔗</span>
   {{- range $categories }}
   <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   {{- end }}
