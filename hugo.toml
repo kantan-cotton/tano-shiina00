@@ -108,3 +108,6 @@ enableRobotsTXT = true
   [[related.indices]]
     name = "keywords"
     weight = 50
+
+[frontmatter]
+  lastmod = ["modified", ":git", "lastmod", "date", "publishdate", "pubdate", "published"]
