@@ -11,11 +11,11 @@ aliases:
 source:
 description: ノートプロパティさえ設定していれば、Basesを使って月ごとの読書記録なども簡単に内部リンクとして取得できる。
 created: 2026-10-19 15:58:33
-modified: 2026-10-19 11:18:57
+modified: 2026-11-02
 slug: 0nwynuoi
 images:
   - /images/posts/0nwynuoi/ogp.webp
-date: 2026-10-19T20:49:30+09:00
+date: 2026-10-19
 tags:
   - Obisidian
 weight:
