@@ -1,0 +1,12 @@
+{{- $src := .Get 0 -}}
+{{- $alt := .Get 1 -}}
+{{- $caption := .Get 2 -}}
+
+<figure>
+  <a href="{{ $src }}" data-lightbox="gallery">
+    <img src="{{ $src }}" alt="{{ $alt }}">
+  </a>
+  {{- with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
