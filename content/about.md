@@ -1,9 +1,10 @@
 ---
 title: About
 layout: single
+description: 管理者の情報やサイトの案内が掲載されているページです。
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-10-26 10:11:16
+modified: 2026-10-26
 showtoc: false
 ---
 

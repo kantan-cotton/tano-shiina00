@@ -1,9 +1,10 @@
 ---
 title: Contact
 layout: single
+description: お問い合わせがある場合は以下のGoogleフォームからお願いいたします。
 date: 2026-10-26
 created: 2026-10-26
-modified: 2026-10-26 09:36:00
+modified: 2026-11-08
 showtoc: false
 ---
 <iframe
