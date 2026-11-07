@@ -64,10 +64,12 @@
 {{- end }}
 
 <article class="{{ $class }}">
-{{- with index .Params.images 0 }}
-<figure class="entry-cover">
-  <img src="{{ . | absURL }}" alt="" loading="lazy">
-</figure>
+{{- $page := . }}
+{{- with index $page.Params.images 0 }}
+  {{- $image := $page.Resources.Get . }}
+  <figure class="entry-cover">
+    <img src="{{ if $image }}{{ $image.RelPermalink }}{{ else }}{{ . | absURL }}{{ end }}" alt="" loading="lazy">
+  </figure>
 {{- end }}
   <header class="entry-header">
     <h2 class="entry-hint-parent">

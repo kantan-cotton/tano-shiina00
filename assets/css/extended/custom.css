@@ -381,3 +381,14 @@ h6 {
         width: 90px;
     }
 }
+
+.pagination a {
+    background: #ff1100; /* ボタンの背景色 */
+    color: #FFFFFF;      /* ボタン内テキストの色 */
+    transition: background-color 0.2s;
+}
+
+.pagination a:hover {
+    background: #d90e00;
+    color: #FFFFFF;
+}

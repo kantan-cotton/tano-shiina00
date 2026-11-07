@@ -51,6 +51,10 @@
 
   {{- partial "related.html" . }}
 
+  {{- if (.Param "ShowPostNavLinks") }}
+  {{- partial "post_nav_links.html" . }}
+  {{- end }}
+
   <footer class="post-footer">
        {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     {{- with ($.GetTerms $tags) }}

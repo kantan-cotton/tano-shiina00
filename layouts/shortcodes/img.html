@@ -3,11 +3,17 @@
 {{- $alt := .Get 2 -}}
 {{- $caption := .Get 3 -}}
 
+{{- $image := .Page.Resources.Get $src -}}
+
+{{- if $image -}}
+  {{- $src = $image.RelPermalink -}}
+{{- end -}}
+
 <figure>
   <a href="{{ $link }}">
     <img src="{{ $src }}" alt="{{ $alt }}">
   </a>
   {{- with $caption }}
-  <figcaption>{{ . }}</figcaption>
+    <figcaption>{{ . }}</figcaption>
   {{- end }}
 </figure>

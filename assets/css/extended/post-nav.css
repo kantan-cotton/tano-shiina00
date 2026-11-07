@@ -1,0 +1,26 @@
+/* 前後記事ナビゲーション */
+.paginav {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.paginav a {
+    border: 1px solid #a597c8;
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    background: var(--entry);
+    color: var(--primary);
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.paginav a:hover {
+    background: var(--tertiary);
+    border-color: #a597c8;
+}
+
+.paginav .title {
+    color: var(--secondary);
+    font-size: 0.85em;
+}
