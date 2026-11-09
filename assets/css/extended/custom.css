@@ -354,8 +354,8 @@ h6 {
     text-decoration: none;
 }
 
-.related-image {
-    width: 120px;
+.related-item img {
+    width: 160px;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 6px;
@@ -382,13 +382,28 @@ h6 {
     }
 }
 
+/* ライトモード */
+:root {
+    --pagination-bg: #2672b2;
+    --pagination-hover: #36a3ff;
+    --pagination-text: #FFFFFF;
+}
+
+/* ダークモード */
+[data-theme="dark"] {
+    --pagination-bg: #a597c8;
+    --pagination-hover: #d2c1ff;
+    --pagination-text: #211d2c;
+}
+
+/* ページネーション */
 .pagination a {
-    background: #ff1100; /* ボタンの背景色 */
-    color: #FFFFFF;      /* ボタン内テキストの色 */
-    transition: background-color 0.2s;
+    background: var(--pagination-bg);
+    color: var(--pagination-text);
+    transition: background-color 0.2s ease;
 }
 
 .pagination a:hover {
-    background: #d90e00;
-    color: #FFFFFF;
+    background: var(--pagination-hover);
+    color: var(--pagination-text);
 }

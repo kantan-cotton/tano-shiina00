@@ -4,14 +4,16 @@
     <h2>関連記事</h2>
     <ul class="related-list">
         {{- range $related }}
+        {{- $page := . }}
         <li>
             <a class="related-item" href="{{ .RelPermalink }}">
-                {{- with .Params.images }}
-                {{- $image := index . 0 }}
-                <img class="related-image"
-                     src="{{ $image | absURL }}"
-                     alt=""
-                     loading="lazy">
+                {{- with index .Params.images 0 }}
+                  {{- $image := . }}
+                  {{- with $page.Resources.GetMatch $image }}
+                    <img src="{{ .RelPermalink }}" alt="">
+                  {{- else }}
+                    <img src="{{ $image | absURL }}" alt="">
+                  {{- end }}
                 {{- end }}
                 <div class="related-text">
                     <span class="related-title">{{ .LinkTitle }}</span>
