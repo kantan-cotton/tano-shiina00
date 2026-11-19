@@ -42,6 +42,16 @@
     font-size: 12px;
 }
 
+/* PC：ヘッダーをスクロールに追従させる */
+@media screen and (min-width: 769px) {
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: var(--theme);
+    }
+}
+
 /* ========================================
    モバイル：サイドパネル
 ======================================== */
