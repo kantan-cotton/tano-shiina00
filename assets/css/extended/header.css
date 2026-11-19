@@ -80,7 +80,7 @@
         padding: 14px;
 
         color: var(--entry);
-        background: var(--primary);
+        background: color-mix(in srgb, var(--primary) 75%, transparent);
         border: none;
         border-radius: 50%;
         box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
