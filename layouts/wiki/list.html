@@ -1,0 +1,45 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}
+    <div class="post-description">{{ . }}</div>
+    {{- end }}
+</header>
+
+{{ with .Content }}
+<div class="wiki-description">
+    {{ . }}
+</div>
+{{ end }}
+
+<div class="wiki-grid">
+    {{- $pages := where site.RegularPages "Section" "==" "wiki" }}
+    {{- $pages = sort $pages "Params.modified" "desc" }}
+
+    {{- range $pages }}
+    {{- $page := . }}
+    <a class="wiki-card" href="{{ $page.RelPermalink }}">
+        {{- with $page.Params.images }}
+            {{- $image := index . 0 }}
+            {{- with $page.Resources.GetMatch $image }}
+            <div class="wiki-card-image">
+                <img src="{{ .RelPermalink }}" alt="" loading="lazy">
+            </div>
+            {{- end }}
+        {{- end }}
+
+        <div class="wiki-card-content">
+            <h2>{{ $page.Title }}</h2>
+            {{- with $page.Description }}
+            <p>{{ . }}</p>
+            {{- end }}
+            {{- with $page.Params.modified }}
+            <time>update: {{ . | time.Format "2006-01-02" }}</time>
+            {{- end }}
+        </div>
+    </a>
+    {{- end }}
+</div>
+
+{{- end }}

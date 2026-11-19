@@ -193,11 +193,14 @@ blockquote p {
 }
 
 /* リンクの色 */
-.post-content a {
+.post-content a,
+.wiki-description a {
+  text-underline-offset: 0.3rem;
   color: #2672A8;
 }
 
-:root[data-theme="dark"] .post-content a {
+:root[data-theme="dark"] .post-content a,
+:root[data-theme="dark"] .wiki-description a {
   color: #DC9FE3;
 }
 
@@ -406,4 +409,13 @@ h6 {
 .pagination a:hover {
     background: var(--pagination-hover);
     color: var(--pagination-text);
+}
+
+.home-info .entry-content {
+    text-align: center;
+}
+
+.wiki-description a:not(.anchor) {
+    text-underline-offset: 0.3rem;
+    text-decoration: underline;
 }

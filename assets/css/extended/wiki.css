@@ -1,0 +1,112 @@
+
+/* Wiki一覧 */
+
+.wiki-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    align-items: stretch;
+}
+
+.wiki-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--entry);
+    color: var(--primary);
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.wiki-card:hover {
+    background: var(--code-bg);
+    border-color: var(--secondary);
+}
+
+.wiki-card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.wiki-card-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wiki-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 12px;
+    min-width: 0;
+}
+
+.wiki-card-content h2 {
+    margin: 0 0 8px;
+    font-size: 17px;
+}
+
+.wiki-card-content p {
+    margin: 0;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.wiki-card-content time {
+    margin-top: auto;
+    padding-top: 12px;
+    color: var(--secondary);
+    font-size: 12px;
+}
+
+/* タブレット */
+@media (max-width: 899px) {
+    .wiki-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* スマートフォン */
+@media (max-width: 599px) {
+    .wiki-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .wiki-card-content {
+        padding: 10px;
+    }
+
+    .wiki-card-content h2 {
+        font-size: 15px;
+    }
+
+    .wiki-card-content p {
+        font-size: 13px;
+    }
+}
+
+.wiki-card-content h2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-clamp: 2;
+    line-height: 1.5;
+    min-height: 3em;
+}
+
+.wiki-description {
+    margin-bottom: 32px;
+}

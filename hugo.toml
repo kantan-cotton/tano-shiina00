@@ -24,7 +24,7 @@ enableRobotsTXT = true
   Title = "👻 Kibi Shiina's Website 😱"
   Content =  """
 「たのしいな。」は、<ruby> 吉備 <rp>(</rp><rt>きび</rt><rp>)</rp> </ruby><ruby> 椎菜 <rp>(</rp><rt>しいな</rt><rp>)</rp> </ruby>の個人サイトです。     
-ヒトがつくったものと、ヒトがつくっていないものについてよく書く。  
+ヒトがつくったものと、ヒトがつくっていないものについてよく書く。 
 """
   AlignSocialIconsTo = "center"
 
@@ -76,6 +76,11 @@ enableRobotsTXT = true
   name = "Tags"
   url = "/tags/"
   weight = 20
+
+[[menu.main]]
+  name = "Wiki"
+  url = "/wiki/"
+  weight = 25
 
 [[menu.main]]
   name = "Search"
