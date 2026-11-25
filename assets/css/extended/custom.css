@@ -419,3 +419,33 @@ h6 {
     text-underline-offset: 0.3rem;
     text-decoration: underline;
 }
+
+/* 404ページ */
+.not-found-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    min-height: 60vh;
+}
+
+.not-found-number {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.not-found-ghost {
+    width: 110px;
+    height: 110px;
+    color: var(--primary);
+    flex-shrink: 0;
+    transform: translateY(10px);
+}
+
+/* 画像キャプション */
+.post-content figure figcaption {
+    font-size: 0.85rem;
+    color: #888888;
+    text-align: center;
+}

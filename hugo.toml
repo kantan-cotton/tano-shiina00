@@ -33,10 +33,6 @@ enableRobotsTXT = true
   url = "https://fedibird.com/@simulfix"
 
 [[params.socialIcons]]
-  name = "x"
-  url = "https://x.com/ユーザー名"
-
-[[params.socialIcons]]
   name = "RSS"
   url = "https://tano-shiina.com/index.xml"
 

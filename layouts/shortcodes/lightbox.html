@@ -1,12 +1,19 @@
+
 {{- $src := .Get 0 -}}
 {{- $alt := .Get 1 -}}
 {{- $caption := .Get 2 -}}
 
+{{- $resource := .Page.Resources.GetMatch $src -}}
+
+{{- with $resource }}
 <figure>
-  <a href="{{ $src }}" data-lightbox="gallery">
-    <img src="{{ $src }}" alt="{{ $alt }}">
+  <a href="{{ .RelPermalink }}" data-lightbox="gallery">
+    <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
   </a>
   {{- with $caption }}
   <figcaption>{{ . }}</figcaption>
   {{- end }}
 </figure>
+{{- else }}
+  {{- errorf "Lightbox image not found: %s (%s)" $src .Page.Path }}
+{{- end }}

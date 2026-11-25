@@ -1,6 +1,6 @@
 ---
 categories:
-  - PKM
+  - Essay
 class:
 type:
 genre:
@@ -11,7 +11,7 @@ aliases:
 source:
 description: ノートプロパティさえ設定していれば、Basesを使って月ごとの読書記録なども簡単に内部リンクとして取得できる。
 created: 2026-10-19 15:58:33
-modified: 2026-11-02
+modified: 2026-11-25
 slug: 0nwynuoi
 images:
   - /images/posts/0nwynuoi/ogp.webp

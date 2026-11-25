@@ -1,18 +1,19 @@
 ---
 title: Wikiセクションについて
 date: 2026-11-17
-modified: 2026-11-18
+modified: 2026-11-25
 description: Wikiセクションとはなにか、なぜ実装したのかを書く。
+weight: 1
 showtoc: false
 images:
   - 
 ---
 ## Wikiセクションとはなにか
-
+[test](/wiki/testtest/)
 - ふつうの[ブログ記事]({{< ref "posts/" >}})未満の断片が集まっている
 - ちょっとした思いつき
 - ささいなできごと
-- まとまっていない考え
+- まとまっていない考え→断続的なアップデート前提
 - 特定の言葉をどういう考えのもとで使っているか
 	- おもしろく拝見させていただいている「[檻を齧る](https://scrapbox.io/bespectacled/)」というConsenseでいうところの「[俺和辞典](https://scrapbox.io/bespectacled/%E4%BF%BA%E5%92%8C%E8%BE%9E%E5%85%B8)」的なものに育ったらうれしい
 	- もっと欲張るなら、ルナールの『[博物誌](https://www.aozora.gr.jp/cards/001156/files/43603_48251.html)』みたいになれると最高かも

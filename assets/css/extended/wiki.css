@@ -110,3 +110,11 @@
 .wiki-description {
     margin-bottom: 32px;
 }
+
+.wiki-backlinks h2 {
+    margin-bottom: 30px;
+}
+
+.wiki-outgoing h2 {
+    margin-bottom: 30px;
+}

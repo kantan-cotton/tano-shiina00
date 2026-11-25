@@ -4,7 +4,7 @@ layout: single
 description: 管理者の情報やサイトの案内が掲載されているページです。
 date: 2026-09-26
 created: 2026-09-26
-modified: 2026-11-08
+modified: 2026-11-25
 showtoc: false
 ---
 
@@ -13,13 +13,13 @@ showtoc: false
 - P.N：<ruby> 吉備 <rp>(</rp><rt>きび</rt><rp>)</rp> </ruby><ruby> 椎菜 <rp>(</rp><rt>しいな</rt><rp>)</rp> </ruby>
 - お問い合わせページは[こちら](https://tano-shiina.com/contact/)
 
-## ☃️カテゴリー案内
+## ☃️サイト案内
 
 - [Book](https://tano-shiina.com/categories/book/)：本を読むと、なにかしら感じたり思ったりをする
 - [Video](https://tano-shiina.com/categories/video/)：映像作品ぜんぱん🍞
 - [Game](https://tano-shiina.com/categories/game/)：画面酔いしやすい
-- [PKM](https://tano-shiina.com/categories/pkm/)：自分で決めたはずのサイトの設定やメモの方針を忘れがち
 - [Essay](https://tano-shiina.com/categories/essay/)：つまるところ雑文のたぐい
+- [Wiki](https://tano-shiina.com/wiki/)：ブログ未満の断片があつまっている。詳しくは[こちら](https://tano-shiina.com/wiki/about/)
 
 ## 📎リンク
 
