@@ -40,7 +40,7 @@ draft: false
   <img class="article-card-image" src="https://m.media-amazon.com/images/I/81SrGQ+vAkL.jpg_BO30,255,255,255_UF750,750_SR1910,1000,0,C_QL100_.jpg" alt="">
   <span class="article-card-content">
     <span class="article-card-title">十日間の不思議〔新訳版〕 (ハヤカワ・ミステリ文庫)</span>
-    <span class="article-card-description">ぼくを見張ってほしい――たびたび記憶喪失に襲われ、その間自分が何をしているのか怯えるハワード。探偵エラリイは旧友の懇願を聞き入れて、彼の故郷であるライツヴィルに三たび赴くが、そこである秘密を打ち明けられ、異常な脅迫事件の渦中へと足を踏み入れることになる。連続する奇怪な出来事と論理の迷宮の果てに、恐るべき真実へと至った名探偵は……巨匠クイーン円熟期の白眉にして本格推理小説の極北、新訳で登場</span>
+    <span class="article-card-description">ぼくを見張ってほしい――たびたび記憶喪失に襲われ、その間自分が何をしているのか怯えるハワード。探偵エラリイは旧友の懇願を聞き入れて、彼の故郷であるライツヴィルに三たび赴くが…</span>
   </span>
 </a>
 

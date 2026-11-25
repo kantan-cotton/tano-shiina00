@@ -32,7 +32,7 @@ draft: false
   <img class="article-card-image" src="https://booth.pximg.net/c/620x620/b361b827-04f2-49dd-80a2-1dd6fab0db96/i/9033260/ec063376-73ff-4f0d-988a-a1f52d46b295_base_resized.jpg" alt="">
   <span class="article-card-content">
     <span class="article-card-title">遊星物語るゲームたち - 遊星歯車機関 - BOOTH</span>
-    <span class="article-card-description">【2026年11月17日以降のご注文は、基本的に増刷分が割当てられるため、12月第1週の発送となります】 ゲームは、どのように物語るのか？ 乱数、セーブ＆ロード、選択肢、チュートリアル、QTE……。ビデオゲームならではの「仕組み」に注目し、そこから生まれる体験や表現の可能性を探るゲーム批評誌です。 noteで公開した記事を増補・改訂して読みやすくレイアウトしたものに加え、新規コンテンツとしてミニコラムを10個ほど掲載し、素敵な表紙をつけた、B5・400ページ超のデカすぎる本です。</span>
+    <span class="article-card-description">ゲームは、どのように物語るのか？ 乱数、セーブ＆ロード、選択肢、チュートリアル、QTE……。ビデオゲームならではの「仕組み」に注目し、そこから生まれる体験や表現の可能性を探るゲーム批評誌です。 </span>
   </span>
 </a>
 
